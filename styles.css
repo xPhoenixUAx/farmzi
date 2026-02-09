@@ -232,3 +232,34 @@ hr {
   margin: 0 auto;
   margin-top: 74px;
 }
+.cta-section {
+  padding: 100px 140px;
+  background-color: #177165;
+}
+.cta-sub {
+  color: #a4d6cf;
+}
+.cta-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cta-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  color: #fff;
+  max-width: 640px;
+}
+.cta-btn {
+  width: 463px;
+  height: 98px;
+  background: #23786d;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  align-items: center;
+  justify-content: center;
+}

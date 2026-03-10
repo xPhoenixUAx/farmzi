@@ -263,3 +263,99 @@ hr {
   align-items: center;
   justify-content: center;
 }
+.team-section {
+  position: relative;
+  overflow: hidden;
+}
+.team-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 510px;
+  height: 830px;
+  background: rgba(225, 244, 242, 0.8);
+  z-index: -1;
+}
+.team-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.section-wrap {
+  padding: 100px 150px;
+}
+.team-header {
+  display: flex;
+  justify-self: end;
+  flex-direction: column;
+  padding-bottom: 50px;
+  max-width: 650px;
+}
+.team-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  color: #177165;
+}
+.role-wrap {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 30px;
+}
+.team-name {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 163%;
+  color: #177165;
+}
+.team-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 173%;
+  color: #777;
+  padding-top: 18px;
+}
+.banner-section {
+  background: #177165;
+}
+.banner-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.banner-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #fff;
+}
+.banner-text {
+  padding: 100px 0 100px 150px;
+}
+.banner-image {
+  padding-right: 150px;
+  margin-bottom: -5px;
+}
+.subtitle-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.banner-line {
+  width: 40px;
+  height: 1px;
+  color: #a4d6cf;
+}
+.sub-banner-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 172%;
+  color: #a4d6cf;
+}

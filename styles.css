@@ -359,3 +359,47 @@ hr {
   line-height: 172%;
   color: #a4d6cf;
 }
+.stats-section {
+  padding: 100px 150px;
+}
+.stats-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 85px 0 85px;
+  width: 1140px;
+  height: 230px;
+  background: #e1f4f2;
+}
+
+.stats-number {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 163%;
+  text-align: center;
+  color: #177165;
+}
+.subtitle-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.stats-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 172%;
+  color: #777;
+}
+.gallery-card {
+  position: relative;
+}
+.gallery-info {
+  position: absolute;
+  width: 266px;
+  height: 333px;
+  background: #177165;
+  bottom: 0;
+}
